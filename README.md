@@ -1,19 +1,27 @@
 # Nyra 🌙
 
-Nyra is my personal software engineering project and digital grimoire.
+Nyra is a Python-based personal assistant and digital grimoire built while I learn software development.
 
-I'm building it while relearning software development one feature at a time.
+The project began as a simple command-line journal app and is evolving into a modular application with features for journaling, herbs, tarot, and personal reflection.
 
-The goal isn't just to finish an application.
+## Features
 
-The goal is to become a software engineer by building something meaningful.
+- ✒️ Create journal entries
+- 📖 View saved journal entries
+- 🌿 Herb encyclopedia module
+- 🃏 Tarot module
+- 🧩 Modular Python structure
 
-## Tech Stack
+## Project Structure
 
-- Python
-- Git
-- GitHub
-
-## Status
-
-🚧 Under active development.
+```text
+NYRA/
+├── data/
+│   └── journal.txt
+├── modules/
+│   ├── journal.py
+│   ├── herbs.py
+│   └── tarot.py
+├── .gitignore
+├── README.md
+└── nyra.py
